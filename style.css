@@ -1,0 +1,96 @@
+#hero {
+    height: 1400px;
+    background-image: url("/images/places/rebe-adelaida-zunQwMy5B6M-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#hero-content {
+    width: 900px;
+    background-color: rgb(205, 117, 151, 0.7);
+    box-shadow: 2px 4px 6px rgb(0, 0, 0, 0);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 0 30px 0;
+    margin: 0 auto;
+    position: relative;
+    top: 600px;
+
+}
+
+#hero-content h1 {
+    color: #F5EAEE;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: "roboto", sans-serif;
+    margin: 0;
+}
+
+#hero-content p {
+    color: #F5EAEE;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 32px;
+}
+
+#hero-content a {
+    text-decoration: none;
+    background-color: rgb(88, 24, 69);
+    color: #F5EAEE;
+    padding: 12px 24px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+#hero-content a:hover {
+    color: #C63E73;
+}
+
+#highlights {
+    padding: 24px;
+    background: linear-gradient(0deg, rgb(234, 209, 218), rgb(243, 237, 239));
+}
+
+
+#highlights h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 48px;
+    color: rgb(88, 24, 69);
+    margin: 24px 0;
+
+}
+
+#destinations {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.destination {
+    margin: 0 20px;
+    text-transform: uppercase;
+}
+
+.destination p {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(142, 127, 132);
+    margin: 20px;
+}
+
+.destination strong {
+    color: rgb(88, 24, 69);
+}
+
+.destination img {
+    height: 300px;
+    width: 500px;
+    box-shadow: 2px 4px 8px #D2C4CA;
+    border-radius: 10px;
+    object-fit: cover;
+}

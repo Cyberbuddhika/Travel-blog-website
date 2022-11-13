@@ -1,0 +1,74 @@
+body {
+  background: linear-gradient(150deg, rgb(226, 213, 217), rgb(88, 24, 69));
+}
+
+header {
+  position: static;
+}
+
+header nav a:hover {
+  background-color: rgb(205, 117, 151, 0.5);
+}
+
+main li img {
+  width: 300px;
+  height: 280px;
+  
+}
+
+main ul {
+  width: 1200px;
+  margin: 0 auto 48px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 20px;
+}
+
+li:nth-of-type(3) {
+  grid-column: 1 / span 2;
+}
+
+li:nth-of-type(6) {
+  grid-column: 1 / span 2;
+}
+
+
+main li {
+  display: flex;
+  background-color: white;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  overflow: hidden;
+
+}
+
+.item-content {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.item-content h2 {
+  color: rgb(205, 117, 151, 0.5);
+  margin: 0;
+}
+
+
+.action {
+  text-align: right;
+}
+
+.action a {
+  color: rgb(88, 24, 69);
+  text-decoration: none;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+.action a:hover {
+  background-color: rgb(205, 117, 151, 0.5);
+  border-radius: 8px;
+
+}
