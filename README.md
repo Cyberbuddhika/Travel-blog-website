@@ -1,2 +1,4 @@
-# Travel-blog-website
-A simple HTML &amp; CSS page to host your travel diary.
+# Travel-blog-website 🏝️​
+A simple way to host your travel diary.
+<li>HTML & CSS used. </li>
+
