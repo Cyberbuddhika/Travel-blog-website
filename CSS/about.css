@@ -1,0 +1,103 @@
+body {
+    background: linear-gradient(210deg, rgb(250, 231, 244), rgb(252, 250, 251)); 
+    max-width: 100%;
+}
+
+h2 {
+    color: #3E5B77;
+    font-family: 'satisfy';
+    font-weight: 900;
+    font-size: 80px;
+    padding-left: 40px;
+}
+
+p {
+    color: #3E5B77;
+    font-family: 'roboto';
+    font-weight: 400;
+    padding-left: 40px;
+    font-size: 30px;
+    font-style: italic;
+    text-align: left;
+}
+
+header {
+    position: static;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 160px;
+}
+
+#p2 {
+    font-family: 'satisfy';
+    font-weight: 400;
+    font-size: 40px;
+}
+
+#girl {
+    width: 500px;
+    padding-left: 0px;
+    padding-top: -10px;
+    padding-right: 150px;
+    transform: rotate(2deg);
+}
+
+#icon {
+    width: 60px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+.fav-places {
+    background-color: white;
+    padding-bottom: 20px;
+}
+
+#fav {
+    font-weight: 500;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.place img {
+    width: 100%;
+    max-width: 500px;
+    max-height: 300px;
+    height: 100%;
+    box-shadow: 2px 4px 8px #D2C4CA;
+    border-radius: 10px;
+    object-fit: cover;
+    margin: 1px;
+}
+
+#places {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 200px;
+}
+
+.places {
+    margin: 0 20px;
+
+}
+
+.map img {
+    border-width: 0 ;
+    max-width: 100%;
+    height: auto;
+}
+
+.map h2 {
+    font-family: 'satisfy';
+    font-weight: 200;
+    font-size: 50px;
+    text-align: center;
+}
+
